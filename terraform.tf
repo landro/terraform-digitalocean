@@ -4,9 +4,22 @@ provider "digitalocean" {
     
 }
 
-# Customise domain name to your needs
+# Configure the Google provider
+# Will use credantials in account.json file 
+provider "google" {
+  credentials = "${file("account.json")}"
+  project     = "terraform-example"
+  region      = "europe-west1"
+}
+
+# Customise this
 variable "domain_name" {
   default = "terraform.landro.info"
+}
+
+# Adjust to fit your needs
+variable "number_of_servers" {
+  default = "2"
 }
 
 # Create SSH key that can be connected 
@@ -19,6 +32,7 @@ resource "digitalocean_ssh_key" "ssh" {
 
 # Create droplet based on distributed centos image
 resource "digitalocean_droplet" "web" {
+	count = "${var.number_of_servers}"
     image = "centos-7-0-x64"
     name = "web-server"
     region = "ams2"
@@ -26,25 +40,47 @@ resource "digitalocean_droplet" "web" {
     backups = "false"
     ipv6 = "false"
     ssh_keys = ["${digitalocean_ssh_key.ssh.id}"]
+    
+    provisioner "remote-exec" {
+        inline = [
+        	"yum -y install httpd",
+        	"systemctl start httpd"
+        	
+        ]
+    }
+    
+    connection {
+    	type = "ssh"
+        user = "root"
+        private_key = "${file("digital_ocean_key")}"
+    }
+    
 }
 
-# Create DNS record for floating IP
-resource "digitalocean_domain" "default" {
-    name = "${var.domain_name}"
-    ip_address = "${digitalocean_floating_ip.web.ip_address}"
-}
-
-# Create floating ip and connect it to droplet
+# Create floating IPs and connect to droplets
 resource "digitalocean_floating_ip" "web" {
-    droplet_id = "${digitalocean_droplet.web.id}"
-    region = "${digitalocean_droplet.web.region}"
+	count = "${var.number_of_servers}"
+    droplet_id = "${element(digitalocean_droplet.web.*.id, count.index)}"
+    region = "${element(digitalocean_droplet.web.*.region, count.index)}"
 }
 
-# Output non-floating ip for droplet
-output "ip" {
-    value = "${digitalocean_droplet.web.ipv4_address}"
+# Create DNS records using floating IP
+resource "google_dns_record_set" "www" {
+    managed_zone = "production-zone"
+    # Change this!
+    name = "terraform.landro.info."
+    type = "A"
+    ttl = 300
+    rrdatas = ["${digitalocean_floating_ip.web.*.ip_address}"]
 }
-# Output floating ip
-output "floatingip" {
-    value = "${digitalocean_floating_ip.web.ip_address}"
+
+# Create DNS records in order to manage servers
+resource "google_dns_record_set" "ssh" {
+	count = "${var.number_of_servers}"
+    managed_zone = "production-zone"
+    # Change this!
+    name = "ssh${count.index}.terraform.landro.info."
+    type = "A"
+    ttl = 300
+    rrdatas = ["${element(digitalocean_droplet.web.*.ipv4_address, count.index)}"]
 }
