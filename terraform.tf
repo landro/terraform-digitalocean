@@ -32,7 +32,7 @@ resource "digitalocean_ssh_key" "ssh" {
 
 # Create droplet based on distributed centos image
 resource "digitalocean_droplet" "web" {
-	count = "${var.number_of_servers}"
+    count = "${var.number_of_servers}"
     image = "centos-7-0-x64"
     name = "web-server"
     region = "ams2"
@@ -60,7 +60,7 @@ resource "digitalocean_droplet" "web" {
 
 # Create floating IPs and connect to droplets
 resource "digitalocean_floating_ip" "web" {
-	count = "${var.number_of_servers}"
+    count = "${var.number_of_servers}"
     droplet_id = "${element(digitalocean_droplet.web.*.id, count.index)}"
     region = "${element(digitalocean_droplet.web.*.region, count.index)}"
 }
@@ -77,7 +77,7 @@ resource "google_dns_record_set" "www" {
 
 # Create DNS records in order to manage servers
 resource "google_dns_record_set" "ssh" {
-	count = "${var.number_of_servers}"
+    count = "${var.number_of_servers}"
     managed_zone = "production-zone"
     # Change this!
     name = "ssh${count.index}.${var.domain_name}."
