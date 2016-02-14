@@ -45,7 +45,6 @@ resource "digitalocean_droplet" "web" {
         inline = [
         	"yum -y install httpd",
         	"systemctl start httpd"
-        	
         ]
     }
     
