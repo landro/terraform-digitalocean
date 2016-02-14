@@ -17,7 +17,7 @@ variable "domain_name" {
   default = "terraform.landro.info"
 }
 
-# Adjust to fit your needs
+# Adjust number of servers to match your load
 variable "number_of_servers" {
   default = "2"
 }
@@ -41,6 +41,8 @@ resource "digitalocean_droplet" "web" {
     ipv6 = "false"
     ssh_keys = ["${digitalocean_ssh_key.ssh.id}"]
     
+    # Install and run Apache httpd after 
+    # booting droplet
     provisioner "remote-exec" {
         inline = [
         	"yum -y install httpd",
@@ -67,7 +69,7 @@ resource "digitalocean_floating_ip" "web" {
 resource "google_dns_record_set" "www" {
     managed_zone = "production-zone"
     # Change this!
-    name = "terraform.landro.info."
+    name = "${var.domain_name}."
     type = "A"
     ttl = 300
     rrdatas = ["${digitalocean_floating_ip.web.*.ip_address}"]
@@ -78,7 +80,7 @@ resource "google_dns_record_set" "ssh" {
 	count = "${var.number_of_servers}"
     managed_zone = "production-zone"
     # Change this!
-    name = "ssh${count.index}.terraform.landro.info."
+    name = "ssh${count.index}.${var.domain_name}."
     type = "A"
     ttl = 300
     rrdatas = ["${element(digitalocean_droplet.web.*.ipv4_address, count.index)}"]

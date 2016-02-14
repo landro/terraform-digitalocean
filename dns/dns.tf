@@ -6,11 +6,15 @@ provider "google" {
   region      = "europe-west1"
 }
 
+# Customise this
+variable "domain_name" {
+  default = "landro.info."
+}
+
 # Create a managed zone
 resource "google_dns_managed_zone" "production" {
     name = "production-zone"
-    # Change this!
-    dns_name = "landro.info."
+    dns_name = "${var.domain_name}"
     description = "Used for Terraform example"
 }
 
