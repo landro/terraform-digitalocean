@@ -34,7 +34,7 @@ resource "digitalocean_ssh_key" "ssh" {
 resource "digitalocean_droplet" "web" {
     count = "${var.number_of_servers}"
     image = "centos-7-0-x64"
-    name = "web-server"
+    name = "web-server-${count.index}"
     region = "ams2"
     size = "512mb"
     backups = "false"
