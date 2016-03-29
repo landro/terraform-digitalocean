@@ -37,8 +37,6 @@ resource "digitalocean_droplet" "web" {
     name = "web-server-${count.index}"
     region = "ams2"
     size = "512mb"
-    backups = "false"
-    ipv6 = "false"
     ssh_keys = ["${digitalocean_ssh_key.ssh.id}"]
     
     # Install and run Apache httpd after 
