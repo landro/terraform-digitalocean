@@ -10,5 +10,18 @@ resource "digitalocean_droplet" "web" {
     image = "centos-7-0-x64"
     name = "web-server-${count.index}"
     region = "ams2"
-    size = "512mb"    
+    size = "512mb"
+    ssh_keys = ["${digitalocean_ssh_key.ssh.id}"]   
+}
+
+# Create SSH key that can be connected 
+# to droplets 
+# 
+# Generate SSH keys using
+#
+# ssh-keygen -b 4096 -t rsa  -f digital_ocean_key
+#
+resource "digitalocean_ssh_key" "ssh" {
+    name = "Terraform Example"
+    public_key = "${file("digital_ocean_key.pub")}"
 }
