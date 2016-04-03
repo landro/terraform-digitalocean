@@ -30,3 +30,27 @@ resource "digitalocean_ssh_key" "ssh" {
     name = "Terraform Example"
     public_key = "${file("digital_ocean_key.pub")}"
 }
+
+# Configure the Google provider
+# Will use credantials in account.json file 
+provider "google" {
+  credentials = "${file("account.json")}"
+  project     = "terraform-example"
+  region      = "europe-west1"
+}
+
+# Domain name 
+variable "domain_name" {
+  default = "terraform.landro.info"
+}
+
+# Create DNS records in order to manage servers
+resource "google_dns_record_set" "ssh" {
+    count = "${var.number_of_servers}"
+    managed_zone = "production-zone"
+    # Change this!
+    name = "ssh${count.index}.${var.domain_name}."
+    type = "A"
+    ttl = 300
+    rrdatas = ["${element(digitalocean_droplet.web.*.ipv4_address, count.index)}"]
+}
