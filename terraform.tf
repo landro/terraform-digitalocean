@@ -69,3 +69,20 @@ resource "google_dns_record_set" "ssh" {
     ttl = 300
     rrdatas = ["${element(digitalocean_droplet.web.*.ipv4_address, count.index)}"]
 }
+
+# Create floating IPs and connect to droplets
+resource "digitalocean_floating_ip" "web" {
+    count = "${var.number_of_servers}"
+    droplet_id = "${element(digitalocean_droplet.web.*.id, count.index)}"
+    region = "${element(digitalocean_droplet.web.*.region, count.index)}"
+}
+
+# Create DNS records using floating IP
+resource "google_dns_record_set" "www" {
+    managed_zone = "production-zone"
+    # Change this!
+    name = "${var.domain_name}."
+    type = "A"
+    ttl = 300
+    rrdatas = ["${digitalocean_floating_ip.web.*.ip_address}"]
+}
