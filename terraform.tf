@@ -4,9 +4,14 @@ provider "digitalocean" {
     
 }
 
+# Adjust number of servers to match your load
+variable "number_of_servers" {
+  default = "2"
+}
+
 # Create droplet based on distributed centos image
 resource "digitalocean_droplet" "web" {
-    count = "2"
+    count = "${var.number_of_servers}"
     image = "centos-7-0-x64"
     name = "web-server-${count.index}"
     region = "ams2"
