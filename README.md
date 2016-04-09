@@ -27,6 +27,10 @@ in the root directory.
 
 ## Verify DNS record with Google Cloud name server
 
+    # Retrieve domain name server for domain
+    dig landro.info NS
+
+    # Ask domain name server for IP address
     dig @ns-cloud-<XX>.googledomains.com terraform.landro.info
 
 ## SSH into droplet 
