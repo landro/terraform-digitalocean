@@ -1,0 +1,1502 @@
+{
+  "version": 1,
+  "width": 143,
+  "height": 52,
+  "duration": 109.882752,
+  "command": "/bin/zsh",
+  "title": "",
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.521503,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                              \r \r"
+    ],
+    [
+      0.000024,
+      "\u001b]2;landro@mac-stefanlandro: ~/projects/cloud/terraform-digitalocean\u0007\u001b]1;..-digitalocean\u0007"
+    ],
+    [
+      0.020373,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mterraform-digitalocean\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m "
+    ],
+    [
+      0.000025,
+      "\u001b[K"
+    ],
+    [
+      0.000055,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.218781,
+      "t"
+    ],
+    [
+      0.231112,
+      "\u0008te"
+    ],
+    [
+      0.279763,
+      "r"
+    ],
+    [
+      0.119832,
+      "r"
+    ],
+    [
+      0.191898,
+      "a"
+    ],
+    [
+      0.288302,
+      "f"
+    ],
+    [
+      0.208039,
+      "o"
+    ],
+    [
+      0.144009,
+      "r"
+    ],
+    [
+      0.087970,
+      "m"
+    ],
+    [
+      0.087863,
+      " "
+    ],
+    [
+      0.248865,
+      "a"
+    ],
+    [
+      0.303278,
+      "p"
+    ],
+    [
+      0.775740,
+      "p"
+    ],
+    [
+      0.167962,
+      "l"
+    ],
+    [
+      0.336388,
+      "y"
+    ],
+    [
+      0.791838,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000074,
+      "\r\r\n"
+    ],
+    [
+      0.001240,
+      "\u001b]2;terraform apply\u0007"
+    ],
+    [
+      0.000009,
+      "\u001b]1;terraform\u0007"
+    ],
+    [
+      0.123138,
+      "\u001b[0m\u001b[1mdigitalocean_ssh_key.ssh: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000044,
+      "  fingerprint: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000091,
+      "  name:        \"\" =\u003e \"Terraform Example\"\r\n"
+    ],
+    [
+      0.001104,
+      "  public_key:  \"\" =\u003e \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDOHRQbf2PyOdIXU9sWO917VughlZVefBEfxB3L98xp7AO1r+fbmdUVKqvpYj3Q+Yw3wnrXc4QYC8dkbllRQQ01pb8w5XNU/XH1WWbXSREVQxl1+WKCqkABmh1NcaqThtbuFOLwtz/Sh5Pw8UDvsdOzKB77vTRELn7/ik6uJzv05qEP35UrgTA0hnE45mdXdaeRvJInHXzK21hrXSGKpoHTenoVYGuG3o1GkTTYxYSUgQlc2tub5PAYCH5ahccPaeGE4GjxVc+4jmjodHZqA1D9IZiDUp5o68GNY5MPvB5lafyH6GaXKfmPMfPZFhUgHUO2J7iQtWNo0s6NJR6bHRUIqxiNy2w0CU7dp/uyZmZ20aCAbDG1wreBQxdQMoSyxvuhfQIcUSZzWUSM+vYuoVCdPv8AHOIaGf5pmvwLTjq6OtL5dMryvY+QC4cHvgw4BnrFNDJwB0VIQthyTLOs4dQgRPCeNG0oCAeqBLBtf/+pWCpJMJ48SUizkz9bueTX3H90JYYiZP5sxIbt5eakTLbkVvx1mwRVvnLe7rFxzrNt366cfOi0yl08m5rVH8nmiHCgSroehxMuumIYbiPcXWLnEdivDnPAmEFhya5279vCuajeygV4p/iiTtp94UDDZAvqoOEZCdNfOhu8hkXLoZE0qnd+d6m1TBdsGcXA44Kv6w== landro@mac-stefanlandro.local\\n\"\u001b[0m\r\n"
+    ],
+    [
+      1.399341,
+      "\u001b[0m\u001b[1mdigitalocean_ssh_key.ssh: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.002489,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.0: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000129,
+      "  image:                \"\" =\u003e \"centos-7-0-x64\"\r\n"
+    ],
+    [
+      0.000074,
+      "  ipv4_address:         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000157,
+      "  ipv4_address_private: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000112,
+      "  ipv6_address:         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000090,
+      "  ipv6_address_private: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000130,
+      "  locked:               \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000077,
+      "  name:                 \"\" =\u003e \"web-server-0\"\r\n"
+    ],
+    [
+      0.000085,
+      "  region:               \"\" =\u003e \"ams2\"\r\n"
+    ],
+    [
+      0.000083,
+      "  size:                 \"\" =\u003e \"512mb\"\r\n"
+    ],
+    [
+      0.000049,
+      "  ssh_keys.#:           \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000045,
+      "  ssh_keys.0:           \"\" =\u003e \"2813064\"\r\n"
+    ],
+    [
+      0.000100,
+      "  status:               \"\" =\u003e \"\u003ccomputed\u003e\"\u001b[0m\r\n"
+    ],
+    [
+      0.000062,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.1: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000063,
+      "  image:                \"\" =\u003e \"centos-7-0-x64\"\r\n"
+    ],
+    [
+      0.000056,
+      "  ipv4_address:         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000057,
+      "  ipv4_address_private: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000056,
+      "  ipv6_address:         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000045,
+      "  ipv6_address_private: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000070,
+      "  locked:               \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000047,
+      "  name:                 \"\" =\u003e \"web-server-1\"\r\n"
+    ],
+    [
+      0.000038,
+      "  region:               \"\" =\u003e \"ams2\"\r\n"
+    ],
+    [
+      0.000084,
+      "  size:                 \"\" =\u003e \"512mb\"\r\n"
+    ],
+    [
+      0.000051,
+      "  ssh_keys.#:           \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000049,
+      "  ssh_keys.0:           \"\" =\u003e \"2813064\"\r\n"
+    ],
+    [
+      0.000069,
+      "  status:               \"\" =\u003e \"\u003ccomputed\u003e\"\u001b[0m\r\n"
+    ],
+    [
+      9.998614,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.0: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000099,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.1: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      10.000909,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.1: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000233,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.0: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      10.000973,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.1: Still creating... (30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000198,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.0: Still creating... (30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      8.991743,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.0: Provisioning with 'remote-exec'...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.007288,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Connecting to remote host via SSH...\r\n"
+    ],
+    [
+      0.000101,
+      "digitalocean_droplet.web.0 (remote-exec):   Host: 95.85.22.249\r\n"
+    ],
+    [
+      0.000131,
+      "digitalocean_droplet.web.0 (remote-exec):   User: root\r\n"
+    ],
+    [
+      0.000166,
+      "digitalocean_droplet.web.0 (remote-exec):   Password: false\r\n"
+    ],
+    [
+      0.000146,
+      "digitalocean_droplet.web.0 (remote-exec):   Private key: true\r\n"
+    ],
+    [
+      0.000112,
+      "digitalocean_droplet.web.0 (remote-exec):   SSH Agent: true\r\n"
+    ],
+    [
+      0.674451,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.1: Provisioning with 'remote-exec'...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.002949,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Connecting to remote host via SSH...\r\n"
+    ],
+    [
+      0.000131,
+      "digitalocean_droplet.web.1 (remote-exec):   Host: 95.85.22.243\r\n"
+    ],
+    [
+      0.000137,
+      "digitalocean_droplet.web.1 (remote-exec):   User: root\r\n"
+    ],
+    [
+      0.000201,
+      "digitalocean_droplet.web.1 (remote-exec):   Password: false\r\n"
+    ],
+    [
+      0.000110,
+      "digitalocean_droplet.web.1 (remote-exec):   Private key: true\r\n"
+    ],
+    [
+      0.000064,
+      "digitalocean_droplet.web.1 (remote-exec):   SSH Agent: true\r\n"
+    ],
+    [
+      0.323560,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.1: Still creating... (40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000222,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.0: Still creating... (40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      10.001001,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.1: Still creating... (50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000119,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.0: Still creating... (50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.315243,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Connected!\r\n"
+    ],
+    [
+      0.780234,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Loaded plugins: fastestmirror\r\n"
+    ],
+    [
+      0.331091,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): base             | 3.6 kB     00:00\r\n"
+    ],
+    [
+      0.150823,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): extras           | 3.4 kB     00:00\r\n"
+    ],
+    [
+      0.128971,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): updates          | 3.4 kB     00:00\r\n"
+    ],
+    [
+      0.169867,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): (1/2): extras/7/x8 | 160 kB   00:00\r\n"
+    ],
+    [
+      0.251344,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): (2/2): updates/7/x | 6.4 MB   00:00\r\n"
+    ],
+    [
+      0.001298,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Loading mirror speeds from cached hostfile\r\n"
+    ],
+    [
+      0.043871,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):  * base: mirror.amsiohosting.net\r\n"
+    ],
+    [
+      0.000213,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):  * extras: centos.mirror1.spango.com\r\n"
+    ],
+    [
+      0.000314,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):  * updates: centos.mirror.transip.nl\r\n"
+    ],
+    [
+      0.253957,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Connecting to remote host via SSH...\r\n"
+    ],
+    [
+      0.000056,
+      "digitalocean_droplet.web.0 (remote-exec):   Host: 95.85.22.249\r\n"
+    ],
+    [
+      0.000156,
+      "digitalocean_droplet.web.0 (remote-exec):   User: root\r\n"
+    ],
+    [
+      0.000154,
+      "digitalocean_droplet.web.0 (remote-exec):   Password: false\r\n"
+    ],
+    [
+      0.000149,
+      "digitalocean_droplet.web.0 (remote-exec):   Private key: true\r\n"
+    ],
+    [
+      0.000195,
+      "digitalocean_droplet.web.0 (remote-exec):   SSH Agent: true\r\n"
+    ],
+    [
+      0.397548,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Connected!\r\n"
+    ],
+    [
+      1.518308,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Loaded plugins: fastestmirror\r\n"
+    ],
+    [
+      0.417030,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): base             | 3.6 kB     00:00\r\n"
+    ],
+    [
+      0.196134,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): extras           | 3.4 kB     00:00\r\n"
+    ],
+    [
+      0.093857,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Resolving Dependencies\r\n"
+    ],
+    [
+      0.000230,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): --\u003e Running transaction check\r\n"
+    ],
+    [
+      0.000214,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): ---\u003e Package httpd.x86_64 0:2.4.6-40.el7.centos.4 will be installed\r\n"
+    ],
+    [
+      0.062700,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): updates          | 3.4 kB     00:00\r\n"
+    ],
+    [
+      0.039667,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): --\u003e Processing Dependency: httpd-tools = 2.4.6-40.el7.centos.4 for package: httpd-2.4.6-40.el7.centos.4.x86_64\r\n"
+    ],
+    [
+      0.145331,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): (1/2): extras/7/x8 | 160 kB   00:00\r\n"
+    ],
+    [
+      0.123423,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): --\u003e Processing Dependency: /etc/mime.types for package: httpd-2.4.6-40.el7.centos.4.x86_64\r\n"
+    ],
+    [
+      0.004315,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): --\u003e Processing Dependency: libaprutil-1.so.0()(64bit) for package: httpd-2.4.6-40.el7.centos.4.x86_64\r\n"
+    ],
+    [
+      0.008801,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): --\u003e Processing Dependency: libapr-1.so.0()(64bit) for package: httpd-2.4.6-40.el7.centos.4.x86_64\r\n"
+    ],
+    [
+      0.000281,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): --\u003e Running transaction check\r\n"
+    ],
+    [
+      0.000201,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): ---\u003e Package apr.x86_64 0:1.4.8-3.el7 will be installed\r\n"
+    ],
+    [
+      0.011669,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): ---\u003e Package apr-util.x86_64 0:1.5.2-6.el7 will be installed\r\n"
+    ],
+    [
+      0.001301,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): ---\u003e Package httpd-tools.x86_64 0:2.4.6-40.el7.centos.4 will be installed\r\n"
+    ],
+    [
+      0.012157,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): ---\u003e Package mailcap.noarch 0:2.1.41-2.el7 will be installed\r\n"
+    ],
+    [
+      0.333754,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): (2/2): updates/7/x | 6.4 MB   00:00\r\n"
+    ],
+    [
+      0.016152,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Loading mirror speeds from cached hostfile\r\n"
+    ],
+    [
+      0.096876,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):  * base: mirror.1000mbps.com\r\n"
+    ],
+    [
+      0.000376,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):  * extras: centos.mirror.transip.nl\r\n"
+    ],
+    [
+      0.000223,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):  * updates: centos.mirror.transip.nl\r\n"
+    ],
+    [
+      0.073069,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): --\u003e Finished Dependency Resolution\r\n"
+    ],
+    [
+      0.448344,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000544,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Dependencies Resolved\r\n"
+    ],
+    [
+      0.000083,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000508,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): ========================================\r\n"
+    ],
+    [
+      0.000286,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):  Package\r\n"
+    ],
+    [
+      0.000429,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):        Arch   Version     Repository\r\n"
+    ],
+    [
+      0.000242,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):                                    Size\r\n"
+    ],
+    [
+      0.000215,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): ========================================\r\n"
+    ],
+    [
+      0.000192,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Installing:\r\n"
+    ],
+    [
+      0.000430,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):  httpd x86_64 2.4.6-40.el7.centos.4\r\n"
+    ],
+    [
+      0.000303,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):                           updates 2.7 M\r\n"
+    ],
+    [
+      0.000137,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Installing for dependencies:\r\n"
+    ],
+    [
+      0.000190,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):  apr   x86_64 1.4.8-3.el7 base    103 k\r\n"
+    ],
+    [
+      0.000198,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):  apr-util\r\n"
+    ],
+    [
+      0.000173,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):        x86_64 1.5.2-6.el7 base     92 k\r\n"
+    ],
+    [
+      0.000168,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):  httpd-tools\r\n"
+    ],
+    [
+      0.000265,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):        x86_64 2.4.6-40.el7.centos.4\r\n"
+    ],
+    [
+      0.000312,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):                           updates  83 k\r\n"
+    ],
+    [
+      0.000162,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):  mailcap\r\n"
+    ],
+    [
+      0.000132,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):        noarch 2.1.41-2.el7\r\n"
+    ],
+    [
+      0.000142,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):                           base     31 k\r\n"
+    ],
+    [
+      0.000099,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000376,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Transaction Summary\r\n"
+    ],
+    [
+      0.000277,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): ========================================\r\n"
+    ],
+    [
+      0.000153,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Install  1 Package (+4 Dependent packages)\r\n"
+    ],
+    [
+      0.000008,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000315,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Total download size: 3.0 M\r\n"
+    ],
+    [
+      0.000196,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Installed size: 10 M\r\n"
+    ],
+    [
+      0.000218,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Downloading packages:\r\n"
+    ],
+    [
+      0.220908,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): (2/5): apr-util 0% |    0 B   --:-- ETA\r\n"
+    ],
+    [
+      0.000122,
+      "digitalocean_droplet.web.1 (remote-exec): (1/5): apr-1.4.8-3 | 103 kB   00:00\r\n"
+    ],
+    [
+      0.037991,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): (2/5): apr-util-1. |  92 kB   00:00\r\n"
+    ],
+    [
+      0.000321,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): (3/5): httpd-tools |  83 kB   00:00\r\n"
+    ],
+    [
+      0.002996,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): (4/5): mailcap-2.1 |  31 kB   00:00\r\n"
+    ],
+    [
+      0.175532,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): (5/5): httpd-2.4.6 | 2.7 MB   00:00\r\n"
+    ],
+    [
+      0.012248,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): ----------------------------------------\r\n"
+    ],
+    [
+      0.000434,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Total      5.3 MB/s | 3.0 MB  00:00\r\n"
+    ],
+    [
+      0.000192,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Running transaction check\r\n"
+    ],
+    [
+      0.044792,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Running transaction test\r\n"
+    ],
+    [
+      0.092412,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Transaction test succeeded\r\n"
+    ],
+    [
+      0.000151,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Running transaction\r\n"
+    ],
+    [
+      0.104478,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Installing : apr-1.4. [         ] 1/5\r\n"
+    ],
+    [
+      0.000135,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : apr-1.4. [##       ] 1/5\r\n"
+    ],
+    [
+      0.000163,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : apr-1.4. [#####    ] 1/5\r\n"
+    ],
+    [
+      0.000150,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : apr-1.4. [#######  ] 1/5\r\n"
+    ],
+    [
+      0.000182,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : apr-1.4. [######## ] 1/5\r\n"
+    ],
+    [
+      0.001999,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : apr-1.4.8-3.el7.x8   1/5\r\n"
+    ],
+    [
+      0.206274,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Installing : apr-util [         ] 2/5\r\n"
+    ],
+    [
+      0.000136,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : apr-util [##       ] 2/5\r\n"
+    ],
+    [
+      0.000175,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : apr-util [#####    ] 2/5\r\n"
+    ],
+    [
+      0.000164,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : apr-util [#######  ] 2/5\r\n"
+    ],
+    [
+      0.000144,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : apr-util [######## ] 2/5\r\n"
+    ],
+    [
+      0.000103,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : apr-util-1.5.2-6.e   2/5\r\n"
+    ],
+    [
+      0.051744,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Installing : httpd-to [         ] 3/5\r\n"
+    ],
+    [
+      0.000084,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-to [##       ] 3/5\r\n"
+    ],
+    [
+      0.000150,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-to [###      ] 3/5\r\n"
+    ],
+    [
+      0.000196,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-to [####     ] 3/5\r\n"
+    ],
+    [
+      0.000138,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-to [#####    ] 3/5\r\n"
+    ],
+    [
+      0.000081,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-to [######   ] 3/5\r\n"
+    ],
+    [
+      0.000139,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-to [######## ] 3/5\r\n"
+    ],
+    [
+      0.000107,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-tools-2.4.6-   3/5\r\n"
+    ],
+    [
+      0.030933,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Installing : mailcap- [         ] 4/5\r\n"
+    ],
+    [
+      0.000110,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : mailcap- [#######  ] 4/5\r\n"
+    ],
+    [
+      0.000078,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : mailcap- [######## ] 4/5\r\n"
+    ],
+    [
+      0.000132,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : mailcap-2.1.41-2.e   4/5\r\n"
+    ],
+    [
+      0.430111,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Installing : httpd-2. [         ] 5/5\r\n"
+    ],
+    [
+      0.000120,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-2. [#        ] 5/5\r\n"
+    ],
+    [
+      0.000105,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-2. [##       ] 5/5\r\n"
+    ],
+    [
+      0.000117,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-2. [###      ] 5/5\r\n"
+    ],
+    [
+      0.352219,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Installing : httpd-2. [####     ] 5/5\r\n"
+    ],
+    [
+      0.000099,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-2. [#####    ] 5/5\r\n"
+    ],
+    [
+      0.000118,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-2. [######   ] 5/5\r\n"
+    ],
+    [
+      0.000093,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-2. [#######  ] 5/5\r\n"
+    ],
+    [
+      0.000117,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-2. [######## ] 5/5\r\n"
+    ],
+    [
+      0.000113,
+      "digitalocean_droplet.web.1 (remote-exec):   Installing : httpd-2.4.6-40.el7   5/5\r\n"
+    ],
+    [
+      0.184539,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Verifying  : httpd-tools-2.4.6-   1/5\r\n"
+    ],
+    [
+      0.030446,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Verifying  : apr-1.4.8-3.el7.x8   2/5\r\n"
+    ],
+    [
+      0.024847,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Verifying  : mailcap-2.1.41-2.e   3/5\r\n"
+    ],
+    [
+      0.021881,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Verifying  : httpd-2.4.6-40.el7   4/5\r\n"
+    ],
+    [
+      0.013512,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   Verifying  : apr-util-1.5.2-6.e   5/5\r\n"
+    ],
+    [
+      0.124573,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000460,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Installed:\r\n"
+    ],
+    [
+      0.000298,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   httpd.x86_64 0:2.4.6-40.el7.centos.4\r\n"
+    ],
+    [
+      0.000085,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000416,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Dependency Installed:\r\n"
+    ],
+    [
+      0.000406,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   apr.x86_64 0:1.4.8-3.el7\r\n"
+    ],
+    [
+      0.000181,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   apr-util.x86_64 0:1.5.2-6.el7\r\n"
+    ],
+    [
+      0.000366,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   httpd-tools.x86_64 0:2.4.6-40.el7.centos.4\r\n"
+    ],
+    [
+      0.000187,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec):   mailcap.noarch 0:2.1.41-2.el7\r\n"
+    ],
+    [
+      0.000168,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000329,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.1 (remote-exec): Complete!\r\n"
+    ],
+    [
+      0.339565,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Resolving Dependencies\r\n"
+    ],
+    [
+      0.000207,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): --\u003e Running transaction check\r\n"
+    ],
+    [
+      0.000205,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): ---\u003e Package httpd.x86_64 0:2.4.6-40.el7.centos.4 will be installed\r\n"
+    ],
+    [
+      0.052227,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.1: Still creating... (1m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000146,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.0: Still creating... (1m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.081251,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): --\u003e Processing Dependency: httpd-tools = 2.4.6-40.el7.centos.4 for package: httpd-2.4.6-40.el7.centos.4.x86_64\r\n"
+    ],
+    [
+      0.042558,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.1: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.158201,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): --\u003e Processing Dependency: /etc/mime.types for package: httpd-2.4.6-40.el7.centos.4.x86_64\r\n"
+    ],
+    [
+      0.002177,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): --\u003e Processing Dependency: libaprutil-1.so.0()(64bit) for package: httpd-2.4.6-40.el7.centos.4.x86_64\r\n"
+    ],
+    [
+      0.007640,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): --\u003e Processing Dependency: libapr-1.so.0()(64bit) for package: httpd-2.4.6-40.el7.centos.4.x86_64\r\n"
+    ],
+    [
+      0.000146,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): --\u003e Running transaction check\r\n"
+    ],
+    [
+      0.000202,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): ---\u003e Package apr.x86_64 0:1.4.8-3.el7 will be installed\r\n"
+    ],
+    [
+      0.012585,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): ---\u003e Package apr-util.x86_64 0:1.5.2-6.el7 will be installed\r\n"
+    ],
+    [
+      0.000254,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): ---\u003e Package httpd-tools.x86_64 0:2.4.6-40.el7.centos.4 will be installed\r\n"
+    ],
+    [
+      0.006172,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): ---\u003e Package mailcap.noarch 0:2.1.41-2.el7 will be installed\r\n"
+    ],
+    [
+      0.406826,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): --\u003e Finished Dependency Resolution\r\n"
+    ],
+    [
+      0.176558,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000354,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Dependencies Resolved\r\n"
+    ],
+    [
+      0.003190,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000403,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): ========================================\r\n"
+    ],
+    [
+      0.000180,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):  Package\r\n"
+    ],
+    [
+      0.000479,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):        Arch   Version     Repository\r\n"
+    ],
+    [
+      0.000208,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):                                    Size\r\n"
+    ],
+    [
+      0.000315,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): ========================================\r\n"
+    ],
+    [
+      0.000181,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Installing:\r\n"
+    ],
+    [
+      0.000330,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):  httpd x86_64 2.4.6-40.el7.centos.4\r\n"
+    ],
+    [
+      0.000276,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):                           updates 2.7 M\r\n"
+    ],
+    [
+      0.000257,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Installing for dependencies:\r\n"
+    ],
+    [
+      0.000234,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):  apr   x86_64 1.4.8-3.el7 base    103 k\r\n"
+    ],
+    [
+      0.000181,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):  apr-util\r\n"
+    ],
+    [
+      0.000255,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):        x86_64 1.5.2-6.el7 base     92 k\r\n"
+    ],
+    [
+      0.000170,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):  httpd-tools\r\n"
+    ],
+    [
+      0.000236,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):        x86_64 2.4.6-40.el7.centos.4\r\n"
+    ],
+    [
+      0.000254,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):                           updates  83 k\r\n"
+    ],
+    [
+      0.000160,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):  mailcap\r\n"
+    ],
+    [
+      0.000200,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):        noarch 2.1.41-2.el7\r\n"
+    ],
+    [
+      0.000146,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):                           base     31 k\r\n"
+    ],
+    [
+      0.000107,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000259,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Transaction Summary\r\n"
+    ],
+    [
+      0.000226,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): ========================================\r\n"
+    ],
+    [
+      0.000212,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Install  1 Package (+4 Dependent packages)\r\n"
+    ],
+    [
+      0.000104,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.014386,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Total download size: 3.0 M\r\n"
+    ],
+    [
+      0.000015,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Installed size: 10 M\r\n\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Downloading packages:\r\n"
+    ],
+    [
+      0.247742,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): (1/5): apr-util-1. |  92 kB   00:00\r\n"
+    ],
+    [
+      0.006044,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): (2/5): mailcap-2.1 |  31 kB   00:00\r\n"
+    ],
+    [
+      0.026500,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): (3/5): httpd-tools |  83 kB   00:00\r\n"
+    ],
+    [
+      0.006741,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): (4/5): apr-1.4.8-3 | 103 kB   00:00\r\n"
+    ],
+    [
+      0.137324,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): (5/5): httpd-2.4.6 | 2.7 MB   00:00\r\n"
+    ],
+    [
+      0.012592,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): ----------------------------------------\r\n"
+    ],
+    [
+      0.000306,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Total      6.7 MB/s | 3.0 MB  00:00\r\n"
+    ],
+    [
+      0.000258,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Running transaction check\r\n"
+    ],
+    [
+      0.039677,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Running transaction test\r\n"
+    ],
+    [
+      0.080242,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Transaction test succeeded\r\n"
+    ],
+    [
+      0.000264,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Running transaction\r\n"
+    ],
+    [
+      0.110022,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Installing : apr-1.4. [         ] 1/5\r\n"
+    ],
+    [
+      0.000136,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : apr-1.4. [##       ] 1/5\r\n"
+    ],
+    [
+      0.000163,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : apr-1.4. [#####    ] 1/5\r\n"
+    ],
+    [
+      0.000114,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : apr-1.4. [#######  ] 1/5\r\n"
+    ],
+    [
+      0.000188,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : apr-1.4. [######## ] 1/5\r\n"
+    ],
+    [
+      0.000133,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : apr-1.4.8-3.el7.x8   1/5\r\n"
+    ],
+    [
+      0.198448,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Installing : apr-util [         ] 2/5\r\n"
+    ],
+    [
+      0.000101,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : apr-util [##       ] 2/5\r\n"
+    ],
+    [
+      0.000129,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : apr-util [#####    ] 2/5\r\n"
+    ],
+    [
+      0.000131,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : apr-util [#######  ] 2/5\r\n"
+    ],
+    [
+      0.000126,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : apr-util [######## ] 2/5\r\n"
+    ],
+    [
+      0.000141,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : apr-util-1.5.2-6.e   2/5\r\n"
+    ],
+    [
+      0.052255,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Installing : httpd-to [         ] 3/5\r\n"
+    ],
+    [
+      0.000075,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-to [##       ] 3/5\r\n"
+    ],
+    [
+      0.000085,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-to [###      ] 3/5\r\n"
+    ],
+    [
+      0.000126,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-to [####     ] 3/5\r\n"
+    ],
+    [
+      0.000143,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-to [#####    ] 3/5\r\n"
+    ],
+    [
+      0.000101,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-to [######   ] 3/5\r\n"
+    ],
+    [
+      0.000131,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-to [######## ] 3/5\r\n"
+    ],
+    [
+      0.000090,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-tools-2.4.6-   3/5\r\n"
+    ],
+    [
+      0.033271,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Installing : mailcap- [         ] 4/5\r\n"
+    ],
+    [
+      0.000173,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : mailcap- [#######  ] 4/5\r\n"
+    ],
+    [
+      0.000141,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : mailcap- [######## ] 4/5\r\n"
+    ],
+    [
+      0.000135,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : mailcap-2.1.41-2.e   4/5\r\n"
+    ],
+    [
+      0.184812,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Installing : httpd-2. [         ] 5/5\r\n"
+    ],
+    [
+      0.299096,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Installing : httpd-2. [#        ] 5/5\r\n"
+    ],
+    [
+      0.000105,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-2. [##       ] 5/5\r\n"
+    ],
+    [
+      0.000139,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-2. [###      ] 5/5\r\n"
+    ],
+    [
+      0.435806,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Installing : httpd-2. [####     ] 5/5\r\n"
+    ],
+    [
+      0.000124,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-2. [#####    ] 5/5\r\n"
+    ],
+    [
+      0.000136,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-2. [######   ] 5/5\r\n"
+    ],
+    [
+      0.000148,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-2. [#######  ] 5/5\r\n"
+    ],
+    [
+      0.000113,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-2. [######## ] 5/5\r\n"
+    ],
+    [
+      0.000144,
+      "digitalocean_droplet.web.0 (remote-exec):   Installing : httpd-2.4.6-40.el7   5/5\r\n"
+    ],
+    [
+      0.126949,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Verifying  : httpd-tools-2.4.6-   1/5\r\n"
+    ],
+    [
+      0.015371,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Verifying  : apr-1.4.8-3.el7.x8   2/5\r\n"
+    ],
+    [
+      0.011536,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Verifying  : mailcap-2.1.41-2.e   3/5\r\n"
+    ],
+    [
+      0.018115,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Verifying  : httpd-2.4.6-40.el7   4/5\r\n"
+    ],
+    [
+      0.010960,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   Verifying  : apr-util-1.5.2-6.e   5/5\r\n"
+    ],
+    [
+      0.104158,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000381,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Installed:\r\n"
+    ],
+    [
+      0.000391,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   httpd.x86_64 0:2.4.6-40.el7.centos.4\r\n"
+    ],
+    [
+      0.000056,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000554,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Dependency Installed:\r\n"
+    ],
+    [
+      0.000288,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   apr.x86_64 0:1.4.8-3.el7\r\n"
+    ],
+    [
+      0.000234,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   apr-util.x86_64 0:1.5.2-6.el7\r\n"
+    ],
+    [
+      0.000266,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   httpd-tools.x86_64 0:2.4.6-40.el7.centos.4\r\n"
+    ],
+    [
+      0.000170,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec):   mailcap.noarch 0:2.1.41-2.el7\r\n"
+    ],
+    [
+      0.000067,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000238,
+      "\u001b[0m\u001b[0mdigitalocean_droplet.web.0 (remote-exec): Complete!\r\n"
+    ],
+    [
+      0.301027,
+      "\u001b[0m\u001b[1mdigitalocean_droplet.web.0: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.002554,
+      "\u001b[0m\u001b[1mdigitalocean_floating_ip.web.0: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000063,
+      "  droplet_id: \"\" =\u003e \"22275189\"\r\n"
+    ],
+    [
+      0.000142,
+      "  ip_address: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000131,
+      "  region:     \"\" =\u003e \"ams2\"\u001b[0m\r\n"
+    ],
+    [
+      0.000352,
+      "\u001b[0m\u001b[1mdigitalocean_floating_ip.web.1: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000137,
+      "  droplet_id: \"\" =\u003e \"22275188\"\r\n"
+    ],
+    [
+      0.000029,
+      "  ip_address: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000050,
+      "  region:     \"\" =\u003e \"ams2\"\u001b[0m\r\n"
+    ],
+    [
+      0.000445,
+      "\u001b[0m\u001b[1mgoogle_dns_record_set.ssh.1: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000043,
+      "  managed_zone: \"\" =\u003e \"production-zone\"\r\n"
+    ],
+    [
+      0.000083,
+      "  name:         \"\" =\u003e \"ssh1.terraform.landro.info.\"\r\n"
+    ],
+    [
+      0.000054,
+      "  rrdatas.#:    \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000066,
+      "  rrdatas.0:    \"\" =\u003e \"95.85.22.243\"\r\n"
+    ],
+    [
+      0.000068,
+      "  ttl:          \"\" =\u003e \"300\"\r\n"
+    ],
+    [
+      0.000068,
+      "  type:         \"\" =\u003e \"A\"\u001b[0m\r\n"
+    ],
+    [
+      0.000137,
+      "\u001b[0m\u001b[1mgoogle_dns_record_set.ssh.0: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000091,
+      "  managed_zone: \"\" =\u003e \"production-zone\"\r\n"
+    ],
+    [
+      0.000113,
+      "  name:         \"\" =\u003e \"ssh0.terraform.landro.info.\"\r\n"
+    ],
+    [
+      0.000025,
+      "  rrdatas.#:    \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000057,
+      "  rrdatas.0:    \"\" =\u003e \"95.85.22.249\"\r\n"
+    ],
+    [
+      0.000076,
+      "  ttl:          \"\" =\u003e \"300\"\r\n"
+    ],
+    [
+      0.000049,
+      "  type:         \"\" =\u003e \"A\"\u001b[0m\r\n"
+    ],
+    [
+      9.998192,
+      "\u001b[0m\u001b[1mdigitalocean_floating_ip.web.0: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000445,
+      "\u001b[0m\u001b[1mdigitalocean_floating_ip.web.1: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000531,
+      "\u001b[0m\u001b[1mgoogle_dns_record_set.ssh.1: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000428,
+      "\u001b[0m\u001b[1mgoogle_dns_record_set.ssh.0: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      5.779637,
+      "\u001b[0m\u001b[1mgoogle_dns_record_set.ssh.0: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.086655,
+      "\u001b[0m\u001b[1mgoogle_dns_record_set.ssh.1: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.218074,
+      "\u001b[0m\u001b[1mdigitalocean_floating_ip.web.0: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.063892,
+      "\u001b[0m\u001b[1mdigitalocean_floating_ip.web.1: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.003574,
+      "\u001b[0m\u001b[1mgoogle_dns_record_set.www: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000038,
+      "  managed_zone: \"\" =\u003e \"production-zone\"\r\n"
+    ],
+    [
+      0.000072,
+      "  name:         \"\" =\u003e \"terraform.landro.info.\"\r\n"
+    ],
+    [
+      0.000028,
+      "  rrdatas.#:    \"\" =\u003e \"2\"\r\n"
+    ],
+    [
+      0.000059,
+      "  rrdatas.0:    \"\" =\u003e \"188.166.141.152\"\r\n"
+    ],
+    [
+      0.000110,
+      "  rrdatas.1:    \"\" =\u003e \"188.166.141.153\"\r\n"
+    ],
+    [
+      0.000048,
+      "  ttl:          \"\" =\u003e \"300\"\r\n"
+    ],
+    [
+      0.000050,
+      "  type:         \"\" =\u003e \"A\"\u001b[0m\r\n"
+    ],
+    [
+      10.000054,
+      "\u001b[0m\u001b[1mgoogle_dns_record_set.www: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      4.949216,
+      "\u001b[0m\u001b[1mgoogle_dns_record_set.www: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.007144,
+      "\u001b[0m\u001b[1m\u001b[32m\r\n"
+    ],
+    [
+      0.000269,
+      "Apply complete! Resources: 8 added, 0 changed, 0 destroyed.\u001b[0m\r\n"
+    ],
+    [
+      0.000011,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000121,
+      "The state of your infrastructure has been saved to the path\r\n"
+    ],
+    [
+      0.000146,
+      "below. This state is required to modify and destroy your\r\n"
+    ],
+    [
+      0.000230,
+      "infrastructure, so keep it safe. To inspect the complete state\r\n"
+    ],
+    [
+      0.000075,
+      "use the `terraform show` command.\r\n"
+    ],
+    [
+      0.000008,
+      "\r\n"
+    ],
+    [
+      0.000095,
+      "State path: terraform.tfstate\u001b[0m\r\n"
+    ],
+    [
+      0.007496,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                              \r \r"
+    ],
+    [
+      0.000124,
+      "\u001b]2;landro@mac-stefanlandro: ~/projects/cloud/terraform-digitalocean\u0007\u001b]1;..-digitalocean\u0007"
+    ],
+    [
+      0.019983,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mterraform-digitalocean\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m "
+    ],
+    [
+      0.000010,
+      "\u001b[K"
+    ],
+    [
+      0.000031,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      4.759642,
+      "\r\r\n"
+    ]
+  ]
+}

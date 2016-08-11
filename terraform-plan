@@ -1,0 +1,438 @@
+{
+  "version": 1,
+  "width": 143,
+  "height": 52,
+  "duration": 14.166233,
+  "command": "/bin/zsh",
+  "title": "",
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.500290,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                              \r \r"
+    ],
+    [
+      0.000021,
+      "\u001b]2;landro@mac-stefanlandro: ~/projects/cloud/terraform-digitalocean\u0007"
+    ],
+    [
+      0.000029,
+      "\u001b]1;..-digitalocean\u0007"
+    ],
+    [
+      0.018469,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mterraform-digitalocean\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m "
+    ],
+    [
+      0.000019,
+      "\u001b[K"
+    ],
+    [
+      0.000084,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.906758,
+      "t"
+    ],
+    [
+      0.222960,
+      "\u0008te"
+    ],
+    [
+      0.288029,
+      "r"
+    ],
+    [
+      0.127657,
+      "r"
+    ],
+    [
+      0.159838,
+      "a"
+    ],
+    [
+      0.280620,
+      "f"
+    ],
+    [
+      0.167844,
+      "o"
+    ],
+    [
+      0.135872,
+      "r"
+    ],
+    [
+      0.111842,
+      "m"
+    ],
+    [
+      0.520179,
+      " "
+    ],
+    [
+      0.328007,
+      "p"
+    ],
+    [
+      0.191484,
+      "l"
+    ],
+    [
+      0.144407,
+      "a"
+    ],
+    [
+      0.168063,
+      "n"
+    ],
+    [
+      0.999750,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000092,
+      "\r\r\n"
+    ],
+    [
+      0.001129,
+      "\u001b]2;terraform plan\u0007"
+    ],
+    [
+      0.000006,
+      "\u001b]1;terraform\u0007"
+    ],
+    [
+      0.068352,
+      "Refreshing Terraform state prior to plan...\r\n"
+    ],
+    [
+      0.000021,
+      "\r\n"
+    ],
+    [
+      0.008473,
+      "\r\n"
+    ],
+    [
+      0.012574,
+      "The Terraform execution plan has been generated and is shown below.\r\n"
+    ],
+    [
+      0.000137,
+      "Resources are shown in alphabetical order for quick scanning. Green resources\r\n"
+    ],
+    [
+      0.000142,
+      "will be created (or destroyed and then created if an existing resource\r\n"
+    ],
+    [
+      0.000114,
+      "exists), yellow resources are being changed in-place, and red resources\r\n"
+    ],
+    [
+      0.000024,
+      "will be destroyed.\r\n"
+    ],
+    [
+      0.000008,
+      "\r\n"
+    ],
+    [
+      0.000131,
+      "Note: You didn't specify an \"-out\" parameter to save this plan, so when\r\n"
+    ],
+    [
+      0.000112,
+      "\"apply\" is called, Terraform can't guarantee this is what will execute.\r\n"
+    ],
+    [
+      0.000002,
+      "\r\n"
+    ],
+    [
+      0.000075,
+      "\u001b[32m+ digitalocean_droplet.web.0\r\n"
+    ],
+    [
+      0.000096,
+      "\u001b[0m    image:                \"\" =\u003e \"centos-7-0-x64\"\r\n"
+    ],
+    [
+      0.000039,
+      "    ipv4_address:         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000074,
+      "    ipv4_address_private: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000051,
+      "    ipv6_address:         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000091,
+      "    ipv6_address_private: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000060,
+      "    locked:               \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000073,
+      "    name:                 \"\" =\u003e \"web-server-0\"\r\n"
+    ],
+    [
+      0.000076,
+      "    region:               \"\" =\u003e \"ams2\"\r\n"
+    ],
+    [
+      0.000067,
+      "    size:                 \"\" =\u003e \"512mb\"\r\n"
+    ],
+    [
+      0.000079,
+      "    ssh_keys.#:           \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000060,
+      "    status:               \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000013,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000059,
+      "\u001b[0m\u001b[32m+ digitalocean_droplet.web.1\r\n"
+    ],
+    [
+      0.000091,
+      "\u001b[0m    image:                \"\" =\u003e \"centos-7-0-x64\"\r\n"
+    ],
+    [
+      0.000072,
+      "    ipv4_address:         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000072,
+      "    ipv4_address_private: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000066,
+      "    ipv6_address:         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000078,
+      "    ipv6_address_private: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000083,
+      "    locked:               \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000068,
+      "    name:                 \"\" =\u003e \"web-server-1\"\r\n"
+    ],
+    [
+      0.000083,
+      "    region:               \"\" =\u003e \"ams2\"\r\n"
+    ],
+    [
+      0.000050,
+      "    size:                 \"\" =\u003e \"512mb\"\r\n"
+    ],
+    [
+      0.000064,
+      "    ssh_keys.#:           \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000100,
+      "    status:               \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000003,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000047,
+      "\u001b[0m\u001b[32m+ digitalocean_floating_ip.web.0\r\n"
+    ],
+    [
+      0.000075,
+      "\u001b[0m    droplet_id: \"\" =\u003e \"0\"\r\n"
+    ],
+    [
+      0.000063,
+      "    ip_address: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000062,
+      "    region:     \"\" =\u003e \"ams2\"\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000056,
+      "\u001b[0m\u001b[32m+ digitalocean_floating_ip.web.1\r\n"
+    ],
+    [
+      0.000028,
+      "\u001b[0m    droplet_id: \"\" =\u003e \"0\"\r\n"
+    ],
+    [
+      0.000055,
+      "    ip_address: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000024,
+      "    region:     \"\" =\u003e \"ams2\"\r\n"
+    ],
+    [
+      0.000003,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000036,
+      "\u001b[0m\u001b[32m+ digitalocean_ssh_key.ssh\r\n"
+    ],
+    [
+      0.000065,
+      "\u001b[0m    fingerprint: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000049,
+      "    name:        \"\" =\u003e \"Terraform Example\"\r\n"
+    ],
+    [
+      0.000906,
+      "    public_key:  \"\" =\u003e \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDOHRQbf2PyOdIXU9sWO917VughlZVefBEfxB3L98xp7AO1r+fbmdUVKqvpYj3Q+Yw3wnrXc4QYC8dkbllRQQ01pb8w5XNU/XH1WWbXSREVQxl1+WKCqkABmh1NcaqThtbuFOLwtz/Sh5Pw8UDvsdOzKB77vTRELn7/ik6uJzv05qEP35UrgTA0hnE45mdXdaeRvJInHXzK21hrXSGKpoHTenoVYGuG3o1GkTTYxYSUgQlc2tub5PAYCH5ahccPaeGE4GjxVc+4jmjodHZqA1D9IZiDUp5o68GNY5MPvB5lafyH6GaXKfmPMfPZFhUgHUO2J7iQtWNo0s6NJR6bHRUIqxiNy2w0CU7dp/uyZmZ20aCAbDG1wreBQxdQMoSyxvuhfQIcUSZzWUSM+vYuoVCdPv8AHOIaGf5pmvwLTjq6OtL5dMryvY+QC4cHvgw4BnrFNDJwB0VIQthyTLOs4dQgRPCeNG0oCAeqBLBtf/+pWCpJMJ48SUizkz9bueTX3H90JYYiZP5sxIbt5eakTLbkVvx1mwRVvnLe7rFxzrNt366cfOi0yl08m5rVH8nmiHCgSroehxMuumIYbiPcXWLnEdivDnPAmEFhya5279vCuajeygV4p/iiTtp94UDDZAvqoOEZCdNfOhu8hkXLoZE0qnd+d6m1TBdsGcXA44Kv6w== landro@mac-stefanlandro.local\\n\"\r\n"
+    ],
+    [
+      0.000013,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000038,
+      "\u001b[0m\u001b[32m+ google_dns_record_set.ssh.0\r\n"
+    ],
+    [
+      0.000047,
+      "\u001b[0m    managed_zone: \"\" =\u003e \"production-zone\"\r\n"
+    ],
+    [
+      0.000047,
+      "    name:         \"\" =\u003e \"ssh0.terraform.landro.info.\"\r\n"
+    ],
+    [
+      0.000048,
+      "    rrdatas.#:    \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000039,
+      "    ttl:          \"\" =\u003e \"300\"\r\n"
+    ],
+    [
+      0.000027,
+      "    type:         \"\" =\u003e \"A\"\r\n"
+    ],
+    [
+      0.000002,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000043,
+      "\u001b[0m\u001b[32m+ google_dns_record_set.ssh.1\r\n"
+    ],
+    [
+      0.000074,
+      "\u001b[0m    managed_zone: \"\" =\u003e \"production-zone\"\r\n"
+    ],
+    [
+      0.000054,
+      "    name:         \"\" =\u003e \"ssh1.terraform.landro.info.\"\r\n"
+    ],
+    [
+      0.000036,
+      "    rrdatas.#:    \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000027,
+      "    ttl:          \"\" =\u003e \"300\"\r\n"
+    ],
+    [
+      0.000051,
+      "    type:         \"\" =\u003e \"A\"\r\n"
+    ],
+    [
+      0.000007,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000039,
+      "\u001b[0m\u001b[32m+ google_dns_record_set.www\r\n"
+    ],
+    [
+      0.000042,
+      "\u001b[0m    managed_zone: \"\" =\u003e \"production-zone\"\r\n"
+    ],
+    [
+      0.000041,
+      "    name:         \"\" =\u003e \"terraform.landro.info.\"\r\n"
+    ],
+    [
+      0.000041,
+      "    rrdatas.#:    \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000033,
+      "    ttl:          \"\" =\u003e \"300\"\r\n"
+    ],
+    [
+      0.000026,
+      "    type:         \"\" =\u003e \"A\"\r\n"
+    ],
+    [
+      0.000002,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000096,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000066,
+      "\u001b[0m\u001b[1mPlan:\u001b[0m 8 to add, 0 to change, 0 to destroy.\u001b[0m\r\n"
+    ],
+    [
+      0.002925,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                              \r \r"
+    ],
+    [
+      0.000108,
+      "\u001b]2;landro@mac-stefanlandro: ~/projects/cloud/terraform-digitalocean\u0007\u001b]1;..-digitalocean\u0007"
+    ],
+    [
+      0.016999,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mterraform-digitalocean\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m "
+    ],
+    [
+      0.000008,
+      "\u001b[K"
+    ],
+    [
+      0.000057,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      6.741485,
+      "\r\r\n"
+    ]
+  ]
+}
