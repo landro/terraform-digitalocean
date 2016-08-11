@@ -63,7 +63,6 @@ variable "domain_name" {
 resource "google_dns_record_set" "ssh" {
     count = "${var.number_of_servers}"
     managed_zone = "production-zone"
-    # Change this!
     name = "ssh${count.index}.${var.domain_name}."
     type = "A"
     ttl = 300
@@ -80,7 +79,6 @@ resource "digitalocean_floating_ip" "web" {
 # Create DNS records using floating IP
 resource "google_dns_record_set" "www" {
     managed_zone = "production-zone"
-    # Change this!
     name = "${var.domain_name}."
     type = "A"
     ttl = 300
